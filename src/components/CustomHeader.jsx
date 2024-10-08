@@ -1,10 +1,12 @@
 import {StyleSheet, View} from 'react-native';
 import React from 'react';
-
+import Icon from 'react-native-vector-icons/MaterialIcons';
 const CustomHeader = () => {
   return (
     <View style={styles.container}>
-      <View style={styles.subcontainer}></View>
+      <View style={styles.subcontainer}>
+        <Icon name="123" />
+      </View>
     </View>
   );
 };
